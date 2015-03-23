@@ -1,0 +1,3 @@
+It can often be useful to export disassembled data from IDA Pro to an HTML file, but unfortunately it is difficult to browse IDA's exported HTML data as it does not contain any hyperlinks to ease navigation.
+
+IDAnchor is an IDAPython script that generates an IDA HTML file and adds anchor tags and hyperlinks to code xrefs in order to ease navigation. Additionally, it adds a function table listing, similar to that in IDA, to make it easy to jump directly to a given function.
